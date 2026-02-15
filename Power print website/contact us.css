@@ -1,0 +1,288 @@
+/* note colors to be used
+black ,
+orange
+red
+*/
+
+/* all stylling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(194, 194, 194);
+ 
+}
+
+/* navigation bar or section */
+nav{
+    padding: 1rem;
+    background-color: rgb(194, 194, 194);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+#home{
+    background-color: rgb(128, 128, 185);
+    padding: .8rem;
+     border-radius: 10px;
+    color: white;
+}
+
+#logo{
+    z-index: 200px;
+
+}
+
+div .icons{
+    margin: 1rem;
+}
+
+.icons img{
+    margin: .8rem;
+    width: 2rem;
+}
+
+div .icons img:hover{
+    cursor: pointer;
+}
+
+
+
+nav div a:hover{
+    padding: .5rem;
+    background-color:  rgb(128, 128, 185);
+     border-radius: 10px;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+/* hero section */ 
+
+header{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+header h1{
+    color: white;
+}
+
+
+/* main section */
+/* main{
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+form{
+    margin: 5rem;
+    padding: 2rem;
+    background-color:black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    border-radius: 10px;
+}
+
+form h2{
+    color: white;
+}
+
+form label {
+    color: white;
+}
+
+.placeholder input{
+    background-color: black;
+    padding: 1rem;
+    width: 35rem;
+    border: solid 1px white;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.placeholder input::placeholder{
+    color: white;
+}
+
+  .services_to_book select{
+    background-color: black;
+    padding: 1rem;
+    width: 72rem;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.time_of_booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.time_of_booking select{
+    background-color: black;
+    padding: 1rem;
+    width: 40rem;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.time_of_booking input{
+    padding: 1rem;
+    width: 5rem;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 10px;
+    /* margin: 1rem; */
+}
+
+.time_of_booking input::placeholder{
+    color: white;
+}
+
+.time_of_booking input[type="checkbox"]{
+    width: 20px;
+    background-color: black;
+}
+
+.textarea input{
+    width: 72rem;
+    height: 8rem;
+    padding: 2rem;
+    background-color: black;
+    border: solid 1px white;
+     border-radius: 10px;
+}
+
+.textarea input::placeholder{
+    color: white;
+    position: relative;
+    top: -30px;
+    
+}
+
+form button{
+    background-color: rgb(128, 128, 185);
+    padding: .8rem;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+
+
+
+.more_details{
+    color: white;
+}
+
+.more_details span{
+    color:  rgb(194, 194, 194);
+}
+
+
+
+
+
+/* footer section */
+footer{
+    padding: 1rem;
+    background-color: black;
+}
+
+.footer_section_1 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer_section_1 div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer_section_1 a{
+    color: rgb(198, 191, 191);
+    text-decoration: none;
+}
+
+footer a:hover{
+       color:  rgb(128, 128, 185);
+}
+
+hr{
+    margin: 2rem;
+}
+
+.footer_section_2 .social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer_section_2 .social_media img{
+    width: 2rem;
+}
+
+.footer_section_2 .social_media img:hover{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.footer_section_2 .text_only{
+    margin: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text_only p{
+    font-size: .8rem;
+    text-align: center;
+}
+
+.footer_section_2 .text_only img{
+    width: 8rem;
+}
+
+
+
